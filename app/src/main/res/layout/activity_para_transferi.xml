@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ParaTransferiActivity"
+    android:orientation="vertical">
+
+
+    <TextView
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:textSize="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:text="Diğer Hesaplarım"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:id="@+id/yeniHesap"
+        android:clickable="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@android:color/holo_red_light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/isim_yeni"
+            android:layout_marginTop="10dp"
+            android:textSize="25dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            android:text="Efe"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/kartNo_yeni"
+            android:layout_marginTop="15dp"
+            android:textSize="25dp"
+            android:layout_marginBottom="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textColor="@android:color/background_light"
+            android:textStyle="bold"
+            android:text="1254563255"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+
+
+    </LinearLayout>
+
+    <TextView
+        android:textColor="@android:color/widget_edittext_dark"
+        android:gravity="center"
+        android:layout_marginTop="50dp"
+        android:textSize="50dp"
+        android:layout_gravity="center"
+        android:text="Para transferi için tutar giriniz"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/para_gir"
+            android:textSize="25dp"
+            android:gravity="center"
+            android:hint="TL Giriniz"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"/>
+
+        <Button
+            android:id="@+id/transfer_btn"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:text="Transfer Et"
+            android:layout_width="180dp"
+            android:layout_height="70dp"/>
+
+    </LinearLayout>
+
+</LinearLayout>

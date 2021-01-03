@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "784363299960",
+    "firebase_url": "https://banka-d1152.firebaseio.com",
+    "project_id": "banka-d1152",
+    "storage_bucket": "banka-d1152.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:784363299960:android:69a1cbb9fae0b123d7798d",
+        "android_client_info": {
+          "package_name": "com.efeyegitoglu.banka"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "784363299960-3ln87nbjbq286ikkcckeokaf8g28jvup.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAiIKnLo0wy9BeyKyJs-khPcBVtypwTJ6w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "784363299960-3ln87nbjbq286ikkcckeokaf8g28jvup.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

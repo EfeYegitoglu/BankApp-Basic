@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GirisYapActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        android:layout_marginTop="150dp"
+        android:textSize="50dp"
+        android:gravity="center"
+        android:text="BANKA UYGULAMASI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp">
+
+        <EditText
+            android:id="@+id/input_login_mail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-posta"></EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="20dp">
+
+        <EditText
+            android:id="@+id/input_login_password"
+            android:inputType="textPassword"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Şifre"></EditText>
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/login_button"
+        android:textColor="@android:color/white"
+        android:background="#0080FF"
+        android:layout_marginTop="10dp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:text="Giriş Yap"
+        android:layout_width="350dp"
+        android:layout_height="50dp"></Button>
+
+    <TextView
+        android:id="@+id/kaydolText"
+        android:layout_marginTop="30dp"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        android:textColor="@android:color/holo_orange_dark"
+        android:text="KAYDOL"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

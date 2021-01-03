@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:background="@drawable/main_back"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:text="Efe"
+        android:gravity="center"
+        android:id="@+id/isim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <TextView
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="4523658745236987"
+        android:id="@+id/kartNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="6250 TL"
+        android:layout_marginBottom="10dp"
+        android:id="@+id/para"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+     <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="35dp"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+
+        <Button
+            android:id="@+id/transfer"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+
+            android:textSize="18dp"
+            android:text="Para Transferi"
+            android:layout_width="125dp"
+            android:layout_height="125dp"/>
+        <Button
+            android:id="@+id/paraGonder"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"
+            android:background="@drawable/button_background"
+            android:textColor="@android:color/white"
+            android:text="Para   Gönder"
+            android:layout_width="125dp"
+            android:layout_height="125dp"/>
+
+     </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="90dp"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/YatırCek"
+                android:textSize="20dp"
+
+                android:text="Para Yatır Çek"
+                android:background="@drawable/button_background"
+                android:textColor="@android:color/white"
+                android:layout_width="125dp"
+                android:layout_height="125dp"/>
+            <Button
+                android:id="@+id/vadeli_btn"
+                android:layout_marginTop="30dp"
+                android:textSize="18dp"
+                android:background="@drawable/button_background"
+                android:textColor="@android:color/white"
+                android:text="Faiz / Vadeli   hesap"
+                android:layout_width="125dp"
+                android:layout_height="125dp"/>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/ekleHesap"
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:background="@drawable/button_background"
+        android:textColor="@android:color/white"
+        android:textSize="20dp"
+        android:text="Hesap Ekle"
+        android:layout_width="125dp"
+        android:layout_height="100dp"/>
+
+    <Button
+        android:id="@+id/cıkısYap"
+        android:textStyle="bold"
+        android:textColor="@android:color/white"
+        android:background="@android:color/holo_red_dark"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:text="çıkış yap"
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

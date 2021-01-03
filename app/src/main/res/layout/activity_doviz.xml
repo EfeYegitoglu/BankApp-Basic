@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DovizActivity"
+    android:orientation="vertical">
+
+    <TextView
+        android:textColor="#000000"
+        android:layout_marginTop="30dp"
+        android:textSize="40dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="Tutarınızı Giriniz Ve Yapmak İstediğiniz İşlemi Seçiniz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/paraText"
+        android:layout_marginTop="25dp"
+        android:textSize="30dp"
+        android:text="2500"
+        android:textColor="#000000"
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+    <EditText
+        android:id="@+id/yatirTl"
+        android:textSize="25dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="50dp"
+        android:hint="Tutar Giriniz"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <Button
+        android:id="@+id/dovizBtn"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="30dp"
+        android:text="Dövize yatır"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_width="140dp"
+        android:layout_height="80dp"/>
+
+    <Button
+        android:id="@+id/faizBtn"
+        android:background="@drawable/button_background"
+        android:layout_marginTop="30dp"
+        android:text="faiz     işlet"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:textColor="#FFFFFF"
+        android:layout_gravity="center"
+        android:layout_width="140dp"
+        android:layout_height="80dp"/>
+
+</LinearLayout>
